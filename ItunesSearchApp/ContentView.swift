@@ -12,11 +12,11 @@ struct ContentView: View {
         TabView{
             AlbumSearchView()
                 .tabItem {
-                    Label("Album", systemImage: "music.note.house")
+                    Label("Albuns", systemImage: "music.note.house")
                 }
             MovieSearchListView()
                 .tabItem {
-                    Label("Movie", systemImage: "popcorn")
+                    Label("Movies", systemImage: "popcorn")
                 }
         }
     }
